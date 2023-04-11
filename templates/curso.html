@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anúncio de Curso</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style type="text/css">
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			padding: 25px;
+			margin: 0;
+            text-align: justify;
+		}
+
+		.container {
+			background-color: white;
+			padding: 20px;
+			border-radius: 5px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			max-width: 600px;
+			margin: 0 auto;
+		}
+
+		h1 {
+			color: #008080;
+			font-size: 36px;
+			margin: 0;
+			text-align: center;
+			margin: 30px auto 50px;
+		}
+
+		p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 20px;
+		}
+
+		.button {
+			display: inline-block;
+			padding: 15px 25px;
+			background-color: #008080;
+			color: white;
+			border-radius: 5px;
+			font-size: 18px;
+			margin-top: 20px;
+		}
+
+		.button:hover {
+			background-color: #005757;
+		}
+
+		.nome-instituto {
+			font-weight: bold; 
+			font-size: 1.5rem;
+			background-color: #005757;
+			color: aliceblue;
+			text-align: center;
+			padding: 8px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+        <p class="nome-instituto">Instituto de Ensino Descomplicado</p>
+		<h1>Uma oportunidade para alcançar seus sonhos</h1>
+		<p>Olá ${nome_destinario},</p>
+		<p>O Instituto de Ensino Descomplicado tem o prazer de anunciar sua mais nova oportunidade para você alcançar seus sonhos com o curso ${informacao_1}. Este curso prepara você para trabalhar em empresas de ${informacao_2}. Abaixo tem alguns dos temas que serão estudados ao longo do curso são:</p>
+		<ul style="line-height: 1.8em;">
+			<li style="font-size: 1.2rem;">${informacao_3}</li>
+			<li style="font-size: 1.2rem;">${informacao_4}</li>
+			<li style="font-size: 1.2rem;">${informacao_5}</li>
+		</ul>
+        <div style="text-align: center;"><a href="https://example.com/cursos/grade-${informacao_1}" class="button" style="text-decoration: none; color: aliceblue;">Quero ver a grade completa</a></div>
+        <br>
+        <p>Realizar um curso pode ser um grande diferencial para o currículo, sendo decisivo na hora de conseguir uma vaga de emprego ou uma promoção dentro da empresa. Alguns cursos também podem aumentar significativamente o salário do profissional, já que as empresas valorizam o conhecimento especializado e estão dispostas a pagar mais por isso.</p>
+		<p>As inscrições já estão abertas e podem ser feitas pelo nosso site. Estamos oferecendo uma incrível promoção, então não perca essa oportunidade de aprimorar seus conhecimentos e se destacar no mercado de trabalho.</p><br>
+        <div style="text-align: center;"><a href="https://example.com/cursos/${informacao_1}" class="button" style="text-decoration: none; color: aliceblue;">Quero aproveitar a promoção</a></div>
+	</div>
+</body>
+</html>
