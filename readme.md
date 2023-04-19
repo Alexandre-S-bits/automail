@@ -1,8 +1,7 @@
 # Automail
-## _Envios massivos de emails_  
-&nbsp;
+### _Envios massivos de emails_  
+
 ## Sobre
-___
 Automail é uma automação de envios de emails em massa, escrito em python, utilizando templates feitos com HTML e CSS, e obtendo dados de uma planilha do Excel. Abaixo segue um manual rapido de como funciona:
 - Os dados são obtidos com o preenchimento da planilha do Excel, sendo necessário salvar a planilha para os dados serem lidos corretamente.
 - Pode-se separar em diferentes guias da planilha informações para cada "tema de envio" (marketing, vendas, financeiro), e no momento de gerar basta escolher o nome da guia desejada
@@ -10,7 +9,7 @@ Automail é uma automação de envios de emails em massa, escrito em python, uti
 - O servidor de email usado nesse codigo é o do Google (Gmail), para cada conta de serviços de email, terá uma configuração diferente que permitirá usar serviços de SMTP 
 &nbsp;
 ##  Como usar
-___
+
 1. Insira as informações na planilha e SALVE a planilha, pois os dados não serão capturados caso não salve. 
 >Caso queira enviar um email com as mesmas informações para mais de um destinatário, basta colocar na coluna de email, os endereços separados por virgula
 
@@ -25,7 +24,7 @@ ___
 
 &nbsp;
 ## Criando um arquivo executável para Windows
-___
+
 Para criar um arquivo **.exe** instale a biblioteca pyinstaller:
 ```sh
 pip install -U pyinstaller
