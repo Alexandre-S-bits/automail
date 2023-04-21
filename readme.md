@@ -19,7 +19,7 @@ Automail é uma automação de envios de emails em massa, escrito em python, uti
 5. Informe o caminho da planilha e o nome da guia
 6. Pressione Enter e aguarde que o programa estará encaminhando os emails
 
->É recomendável que envie para algum de seus emails para testar se o CSS está funcionando corretamente
+ℹ️ É recomendável que envie para algum de seus emails para testar se o CSS está funcionando corretamente ℹ️
 
 
 &nbsp;
