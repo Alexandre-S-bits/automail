@@ -4,8 +4,8 @@
 ## Sobre
 Automail é uma automação de envios de emails em massa, escrito em python, utilizando templates feitos com HTML e CSS, e obtendo dados de uma planilha do Excel. Abaixo segue um manual rapido de como funciona:
 - Os dados são obtidos com o preenchimento da planilha do Excel, sendo necessário salvar a planilha para os dados serem lidos corretamente.
-- Pode-se separar em diferentes guias da planilha informações para cada "tema de envio" (marketing, vendas, financeiro), e no momento de gerar basta escolher o nome da guia desejada
-- A biblioteca usada pelo python para envio de emails, não permite que o CSS seja externo, sendo assim ao criar o template faça CSS interno, e em alguns casos será necessário usar o CSS inline
+- Pode-se separar em diferentes guias da planilha informações para cada "tema de envio" (exemplo marketing, vendas, financeiro) e no momento que o programa estiver em execução basta informar o nome da guia desejada
+- A biblioteca usada pelo python para envio de emails, não permite que o CSS seja externo, sendo assim, utilize CSS interno para criar os templates, e em alguns casos será necessário usar o CSS inline
 - O servidor de email usado nesse codigo é o do Google (Gmail), para cada conta de serviços de email, terá uma configuração diferente que permitirá usar serviços de SMTP 
 &nbsp;
 ##  Como usar
